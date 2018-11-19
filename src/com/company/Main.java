@@ -8,5 +8,11 @@ public class Main {
         Person p = new Person("Qi", 23, "F", 50000);
 
         p.personPrint();
+
+        p.setAge(24);
+
+        p.personPrint();
+
+
     }
 }
